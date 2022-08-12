@@ -1,0 +1,609 @@
+CRITICAL - 2022-08-12 01:22:36 --> Undefined variable $content
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\main.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('main', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(10): view('main')
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 01:31:51 --> Undefined variable $content
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\main.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('main', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(9): view('main')
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 01:38:33 --> Invalid file: login/login.php
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/login.php')
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(12): view('login/login')
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-12 01:41:35 --> Undefined variable $iconos
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(8): view('login')
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 01:42:31 --> Undefined variable $iconos
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(8): view('login')
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 01:43:04 --> Undefined variable $iconos
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(8): view('login')
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 02:03:28 --> Undefined variable $site_url
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\header_general.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(424): CodeIgniter\View\View->render('header_general', NULL, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\login\login.php(1): CodeIgniter\View\View->include('header_general')
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(424): CodeIgniter\View\View->render('login/login', NULL, true)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\main.php(14): CodeIgniter\View\View->include('login/login')
+#9 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('main', Array, true)
+#12 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(8): view('main')
+#13 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#14 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#15 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-08-12 02:06:26 --> Undefined variable $site_url
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\login\login.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(424): CodeIgniter\View\View->render('login/login', NULL, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\main.php(14): CodeIgniter\View\View->include('login/login')
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('main', Array, true)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(9): view('main', Array)
+#9 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#10 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-08-12 02:40:58 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-08-12 02:40:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `N...', Array, false)
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Models\Home\Model_home.php(24): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(24): App\Models\Home\Model_home->getUsuario()
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-08-12 02:42:25 --> Unknown column 'TIPO_PERFIL' in 'field list'
+CRITICAL - 2022-08-12 02:42:25 --> Unknown column 'TIPO_PERFIL' in 'field list'
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ID`, `N...', 0)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `N...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `N...')
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `N...', Array, false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Models\Home\Model_home.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(24): App\Models\Home\Model_home->getUsuario()
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-12 02:44:01 --> Unknown column 'TIPO_PERFIL' in 'field list'
+CRITICAL - 2022-08-12 02:44:01 --> Unknown column 'TIPO_PERFIL' in 'field list'
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ID`, `N...', 0)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `N...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `N...')
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `N...', Array, false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Models\Home\Model_home.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(24): App\Models\Home\Model_home->getUsuario()
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-12 03:04:49 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-12 03:09:41 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-12 03:12:28 --> Undefined property: stdClass::$usuario
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 03:14:38 --> Undefined property: stdClass::$usuario
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 03:15:28 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-12 03:15:59 --> Undefined property: stdClass::$usuario
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 03:16:11 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-12 03:17:19 --> Undefined array key "tipo_de_perfil"
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 03:17:46 --> Attempt to read property "TIPO_DE_PERFIL" on string
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 03:18:32 --> Attempt to read property "TIPO_DE_PERFIL" on string
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 03:19:20 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-12 03:33:25 --> Undefined variable $inicio
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\menu.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/menu', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(38): view('menu/menu', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 04:10:26 --> Undefined variable $imagenes
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\menu.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/menu', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(47): view('menu/menu', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->inicio()
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 04:32:18 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\crear_usuario.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/crear_usua...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(62): view('menu/crear_usua...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('1')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 04:32:29 --> Array to string conversion
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\crear_usuario.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/crear_usua...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(62): view('menu/crear_usua...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('1')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 04:33:09 --> Undefined variable $inicio
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\crear_usuario.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/crear_usua...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(62): view('menu/crear_usua...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('1')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 04:37:32 --> Undefined variable $data
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('Home', 'insertPaciente')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 04:38:04 --> Undefined variable $data
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('Home', 'insertPaciente')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 04:38:49 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\crear_usuario.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/crear_usua...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(66): view('menu/crear_usua...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('Home', 'insertPaciente')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 04:40:51 --> Undefined variable $data
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('Home', 'insertPaciente')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 04:54:00 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\crear_usuario.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/crear_usua...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(66): view('menu/crear_usua...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('0')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 05:08:07 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\crear_usuario.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/crear_usua...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(66): view('menu/crear_usua...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('Home', 'getMunicipios')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 05:08:18 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\crear_usuario.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/crear_usua...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(66): view('menu/crear_usua...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('Home', 'getMunicipios')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 05:09:21 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\crear_usuario.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/crear_usua...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(66): view('menu/crear_usua...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('Home', 'getMunicipios')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 05:11:05 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\crear_usuario.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/crear_usua...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(66): view('menu/crear_usua...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('prueba_trabajo', 'entidad_de_salu...', 'public', 'Home', 'getMunicipios')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 05:20:34 --> Cannot redeclare App\Models\Home\Model_home::getMunicipios()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-12 05:20:43 --> Cannot redeclare App\Models\Home\Model_home::getMunicipios()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-12 05:20:53 --> Cannot redeclare App\Models\Home\Model_home::getMunicipios()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-12 05:20:59 --> Cannot redeclare App\Models\Home\Model_home::getMunicipios()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-12 05:21:00 --> Cannot redeclare App\Models\Home\Model_home::getMunicipios()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-12 05:21:55 --> Cannot redeclare App\Models\Home\Model_home::getMunicipios()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-12 05:25:24 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\crear_usuario.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/crear_usua...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(66): view('menu/crear_usua...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('Home', 'insertMedico')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 05:28:19 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\crear_usuario.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/crear_usua...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(66): view('menu/crear_usua...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('Home', 'insertMedico')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-12 05:39:15 --> Cannot add or update a child row: a foreign key constraint fails (`entidad_de_salud`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`DEPARTAMENTO`) REFERENCES `departamentos` (`ID`))
+CRITICAL - 2022-08-12 05:39:15 --> Cannot add or update a child row: a foreign key constraint fails (`entidad_de_salud`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`DEPARTAMENTO`) REFERENCES `departamentos` (`ID`))
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Us...', 0)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Us...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Us...')
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Models\Home\Model_home.php(67): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(96): App\Models\Home\Model_home->setNewUsuario('Usuarios', Array)
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->insertMedico()
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-12 05:41:29 --> Cannot add or update a child row: a foreign key constraint fails (`entidad_de_salud`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`DEPARTAMENTO`) REFERENCES `departamentos` (`ID`))
+CRITICAL - 2022-08-12 05:41:29 --> Cannot add or update a child row: a foreign key constraint fails (`entidad_de_salud`.`usuarios`, CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`DEPARTAMENTO`) REFERENCES `departamentos` (`ID`))
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `Us...', 0)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Us...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Us...')
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Us...', Array, false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Models\Home\Model_home.php(67): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(96): App\Models\Home\Model_home->setNewUsuario('Usuarios', Array)
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->insertMedico()
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-12 05:49:21 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\crear_usuario.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/crear_usua...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(66): view('menu/crear_usua...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('Home', 'insertPaciente')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 05:50:44 --> Undefined variable $titulo
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\crear_usuario.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/crear_usua...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(66): view('menu/crear_usua...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->crear_usuario('Home', 'insertPaciente')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 06:13:15 --> Undefined array key "Nombre"
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->insertMedico()
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 06:14:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 142)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->insertConsultorio()
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 06:15:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 142)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->insertConsultorio()
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 07:08:45 --> Undefined property: stdClass::$VALOR
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\menu_consultas.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/menu_consu...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(164): view('menu/menu_consu...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->menuConsultas('2')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 07:10:48 --> Undefined property: stdClass::$VALOR
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\menu_consultas.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/menu_consu...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(167): view('menu/menu_consu...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->menuConsultas('2')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 07:11:36 --> Undefined variable $links
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\menu_consultas.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/menu_consu...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(167): view('menu/menu_consu...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->menuConsultas('2')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 11:52:05 --> Undefined variable $site_url
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\header_lista_citas_medicas.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(424): CodeIgniter\View\View->render('menu/header_lis...', NULL, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\agendar_citas_medicas.php(23): CodeIgniter\View\View->include('menu/header_lis...')
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/agendar_ci...', Array, true)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(172): view('menu/agendar_ci...', Array)
+#9 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('3')
+#10 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-08-12 12:45:11 --> Undefined variable $opciones
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\agendar_citas_medicas.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/agendar_ci...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(175): view('menu/agendar_ci...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('3')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 13:01:37 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('3')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 13:02:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 173)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('3')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-12 13:03:52 --> Undefined variable $lista_citas
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\agendar_citas_medicas.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/agendar_ci...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(182): view('menu/agendar_ci...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('3')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 13:15:50 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\agendar_citas_medicas.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/agendar_ci...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(184): view('menu/agendar_ci...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('Home', 'agendar_citas_m...', '1')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 13:16:39 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\agendar_citas_medicas.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/agendar_ci...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(185): view('menu/agendar_ci...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('Home', 'agendar_citas_m...', '1')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 13:16:50 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\agendar_citas_medicas.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/agendar_ci...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(185): view('menu/agendar_ci...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('Home', 'agendar_citas_m...', '1')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 13:16:54 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\agendar_citas_medicas.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/agendar_ci...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(185): view('menu/agendar_ci...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('Home', 'agendar_citas_m...', '1')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 13:17:38 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\agendar_citas_medicas.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/agendar_ci...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(186): view('menu/agendar_ci...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('Home', 'agendar_citas_m...', '1')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-12 13:18:46 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Views\menu\agendar_citas_medicas.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Common.php(1089): CodeIgniter\View\View->render('menu/agendar_ci...', Array, true)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(184): view('menu/agendar_ci...', Array)
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('Home', 'agendar_citas_m...', '1')
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

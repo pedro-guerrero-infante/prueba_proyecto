@@ -1,0 +1,91 @@
+.size_table {
+  font-size: 0.85rem;
+}
+
+.color_form {
+  color: #fff !important;
+}
+
+.bg-gradient-custom {
+  background-color: #0061f2;
+  background-image: linear-gradient(135deg, rgb(47 106 202) 0%, rgb(22 56 111 / 80%) 100%);
+}
+
+.btn-barra {
+  color: #fff;
+  background-color: #2f6aca;
+  border-color: #2f6aca;
+}
+.btn-barra:hover {
+  color: #fff;
+  background-color: #184896;
+  border-color: #184896;
+}
+.btn-barra:focus, .btn-barra.focus {
+  color: #fff;
+  background-color: #184896;
+  border-color: #2a28c2;
+  box-shadow: 0 0 0 0.2rem rgba(24, 72, 150, 0.5);
+}
+.btn-barra.disabled, .btn-barra:disabled {
+  color: #fff;
+  background-color: #2f6aca;
+  border-color: #2f6aca;
+}
+.btn-barra:not(:disabled):not(.disabled):active, .btn-barra:not(:disabled):not(.disabled).active, .show > .btn-barra.dropdown-toggle {
+  color: #fff;
+  background-color: #184896;
+  border-color: #2a28c2;
+}
+.btn-barra:not(:disabled):not(.disabled):active:focus, .btn-barra:not(:disabled):not(.disabled).active:focus, .show > .btn-barra.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(24, 72, 150, 0.5);
+}
+.color_icon {
+  color: #fff;
+}
+.color_icon_delete {
+  color: rgb(255, 0, 0);
+}
+.color_icon_file {
+  color: rgb(0, 97, 242);
+}
+
+.color_icon_range_minus {
+  color: rgb(255, 0, 0);
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+  border-color: rgb(143 209 158) !important;
+  box-shadow: 0 0 0 0.2rem rgba(143 209 158, 0.25) !important;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  border-color: rgb(143 209 158) !important;
+  background-color: rgb(143 209 158) !important;
+}
+
+.custom-control-input:active~.custom-control-label::before {
+  background-color: rgb(143 209 158) !important;
+  border-color: rgb(143 209 158) !important;
+}
+
+.custom-control-input:focus:not(:checked)~.custom-control-label::before {
+  border-color: rgb(143 209 158) !important;
+}
+
+.custom-control-input-green:not(:disabled):active~.custom-control-label::before {
+  background-color: rgb(143 209 158) !important;
+  border-color: rgb(143 209 158) !important;
+}
+
+.card-waves .card-body .recommendation {
+  background-image: none;
+}
+
+.text-green-70 {
+  color: rgba(0, 172, 105, 0.7) !important;
+}
+
+.text-red-70 {
+  color: rgba(232, 21, 0, 0.7) !important;
+}
