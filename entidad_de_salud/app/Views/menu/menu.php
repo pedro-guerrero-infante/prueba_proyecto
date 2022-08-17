@@ -35,7 +35,17 @@
                                             echo '  <tr>
                                                         <td>'.$opcion.'</td>'; ?>
                                                         <td class="text-center">
-                                                            <a class="dropdown-item" id="" href="<?php echo $links[$n]; ?>/<?php echo $n; ?>">
+                                                            <?php 
+                                                            if(isset($id_medico)){ ?>
+                                                                <a class="dropdown-item" id="" href="<?php echo $links[$n]; ?>/<?php echo $n.'/'.$id_medico; ?>">
+                                                            <?php
+                                                            } if(isset($id_usuario)){ ?>
+                                                                <a class="dropdown-item" id="" href="<?php echo $links[$n].'/'.$id_usuario; ?>">
+                                                            <?php } else { ?>
+                                                                <a class="dropdown-item" id="" href="<?php echo $links[$n]; ?>/<?php echo $n; ?>">
+                                                            <?php
+                                                            }
+                                                            ?>
                                                                 <div class="dropdown-item-icon"><i class="text-green fas fa-2x <?php echo $imagenes[$n]?>"></i></div>
                                                             </a>
                                                         </td>

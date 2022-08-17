@@ -76,7 +76,15 @@
                                                             <td>'.$cita->TIPO_CONSULTA.'</td>';?>
 
                                                             <td class="text-center">
-                                                                <a class="dropdown-item" id="" href="">
+                                                                <?php
+                                                                
+                                                                if(isset($id_medico)){ ?>
+                                                                    <a class="dropdown-item" id="" href="<?php echo base_url().'/Home/editar_cita/'.$cita->ID."/0"?>">
+                                                                <?php
+                                                                } else { ?>
+                                                                    <a class="dropdown-item" id="" href="<?php echo base_url().'/Home/editar_cita/'.$cita->ID."/1"?>">
+                                                                <?php
+                                                                }   ?>
                                                                     <div class="dropdown-item-icon"><i class="text-gray-500 fas fa-2x fa-edit"></i></div>
                                                                 </a>
                                                             </td>

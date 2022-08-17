@@ -736,21 +736,21 @@
                     $lista_Citas['CITA_14']['MEDICO'] = 2;
                     $lista_Citas['CITA_15']['MEDICO'] = 3;
                     
-                    $lista_Citas['CITA_1']['USUARIO'] = 1;
-                    $lista_Citas['CITA_2']['USUARIO'] = 2;
-                    $lista_Citas['CITA_3']['USUARIO'] = 3;
-                    $lista_Citas['CITA_4']['USUARIO'] = 4;
-                    $lista_Citas['CITA_5']['USUARIO'] = 5;
-                    $lista_Citas['CITA_6']['USUARIO'] = 6;
-                    $lista_Citas['CITA_7']['USUARIO'] = 1;
-                    $lista_Citas['CITA_8']['USUARIO'] = 2;
-                    $lista_Citas['CITA_9']['USUARIO'] = 3;
-                    $lista_Citas['CITA_10']['USUARIO'] = 4;
-                    $lista_Citas['CITA_11']['USUARIO'] = 5;
-                    $lista_Citas['CITA_12']['USUARIO'] = 6;
-                    $lista_Citas['CITA_13']['USUARIO'] = 1;
-                    $lista_Citas['CITA_14']['USUARIO'] = 2;
-                    $lista_Citas['CITA_15']['USUARIO'] = 3;
+                    $lista_Citas['CITA_1']['USUARIO'] = 8;
+                    $lista_Citas['CITA_2']['USUARIO'] = 9;
+                    $lista_Citas['CITA_3']['USUARIO'] = 10;
+                    $lista_Citas['CITA_4']['USUARIO'] = 11;
+                    $lista_Citas['CITA_5']['USUARIO'] = 12;
+                    $lista_Citas['CITA_6']['USUARIO'] = 13;
+                    $lista_Citas['CITA_7']['USUARIO'] = 8;
+                    $lista_Citas['CITA_8']['USUARIO'] = 9;
+                    $lista_Citas['CITA_9']['USUARIO'] = 10;
+                    $lista_Citas['CITA_10']['USUARIO'] = 11;
+                    $lista_Citas['CITA_11']['USUARIO'] = 12;
+                    $lista_Citas['CITA_12']['USUARIO'] = 13;
+                    $lista_Citas['CITA_13']['USUARIO'] = 8;
+                    $lista_Citas['CITA_14']['USUARIO'] = 9;
+                    $lista_Citas['CITA_15']['USUARIO'] = 10;
 
                     $lista_Citas['CITA_1']['COMPLETADA'] = 'FALSE';
                     $lista_Citas['CITA_2']['COMPLETADA'] = 'FALSE';

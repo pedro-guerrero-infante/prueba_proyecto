@@ -1,6 +1,13 @@
 <div class="d-none" id="filtros">
     <hr/>
-    <form action="<?php echo base_url().'/Home/agendar_citas_medicas/1'; ?>" name="form_solicitud" id="form_solicitud" method="POST" accept-charset="utf-8">	
+    <?php 
+    if(isset($id_medico)){
+        $url = base_url().'/Home/agendar_citas_medicas/1/'.$id_medico;
+    } else {
+        $url = base_url().'/Home/agendar_citas_medicas/1';
+    }
+    ?>
+    <form action="<?php echo $url; ?>" name="form_solicitud" id="form_solicitud" method="POST" accept-charset="utf-8">	
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="txtNombre" class="small mb-1 font-weight-bold">Fecha</label>
