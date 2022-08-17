@@ -3,6 +3,8 @@
 namespace App\Models\Home;
 
 use CodeIgniter\Database\ConnectionInterface;
+use CodeIgniter\Entity\Cast\DatetimeCast;
+use DateTime;
 
 class Model_home{
 	protected $db;
@@ -118,7 +120,7 @@ class Model_home{
 
     public function getCitas( $fecha = NULL, $consultorio = NULL){
         $data = array();
-		$builder = $this->db->table('CitasMedicas');
+		$builder = $this->db->table('citas_medicas');
 		$builder->select('ID,FECHA,MEDICO,USUARIO,COMPLETADA,CONSULTORIO,TIPO_CONSULTA');
         
         if(isset($fecha)){

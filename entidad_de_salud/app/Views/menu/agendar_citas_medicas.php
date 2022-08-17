@@ -31,7 +31,8 @@
         <div class="container mt-n10">
             <div class="card mb-4">
                 <div class="card-header">
-                    Pantalla de inicio
+                    Tabla de citas
+	                <a href="" class="btn btn-barra btn-icon" data-placement="bottom" title="volver"><i class="fas fa-2x fa-home"></i></a>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive" id="tabla_opciones">
@@ -63,24 +64,25 @@
                             <tbody>
                                 <tr>
                                     <?php
-                                        $n = 0;
-                                        foreach( $lista_citas as $cita ){
-                                            echo '  <tr>
-                                                        <td>'.$cita->ID.'</td>
-                                                        <td>'.$cita->FECHA.'</td>
-                                                        <td>'.$cita->MEDICO.'</td>
-                                                        <td>'.$cita->USUARIO.'</td>
-                                                        <td>'.$cita->COMPLETADA.'</td>
-                                                        <td>'.$cita->CONSULTORIO.'</td>
-                                                        <td>'.$cita->TIPO_CONSULTA.'</td>';?>
+                                        if($lista_citas != false){
+                                            foreach( $lista_citas as $cita ){
+                                                echo '  <tr>
+                                                            <td>'.$cita->ID.'</td>
+                                                            <td>'.$cita->FECHA.'</td>
+                                                            <td>'.$cita->MEDICO.'</td>
+                                                            <td>'.$cita->USUARIO.'</td>
+                                                            <td>'.$cita->COMPLETADA.'</td>
+                                                            <td>'.$cita->CONSULTORIO.'</td>
+                                                            <td>'.$cita->TIPO_CONSULTA.'</td>';?>
 
-                                                        <td class="text-center">
-                                                            <a class="dropdown-item" id="" href="">
-                                                                <div class="dropdown-item-icon"><i class="text-gray-500 fas fa-2x fa-edit"></i></div>
-                                                            </a>
-                                                        </td>
-                                    <?php   echo    '</tr>';
-                                        $n++;
+                                                            <td class="text-center">
+                                                                <a class="dropdown-item" id="" href="">
+                                                                    <div class="dropdown-item-icon"><i class="text-gray-500 fas fa-2x fa-edit"></i></div>
+                                                                </a>
+                                                            </td>
+                                        <?php   echo    '</tr>';
+                                            
+                                            } 
                                         } ?>
                             </tbody>
 						</table>

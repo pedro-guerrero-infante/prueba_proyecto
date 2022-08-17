@@ -1,0 +1,39 @@
+ERROR - 2022-08-17 09:18:46 --> Table 'entidad_de_salud.citasmedicas' doesn't exist
+CRITICAL - 2022-08-17 09:18:46 --> Table 'entidad_de_salud.citasmedicas' doesn't exist
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ID`, `F...', 0)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `F...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `F...')
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `F...', Array, false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Models\Home\Model_home.php(134): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(184): App\Models\Home\Model_home->getCitas()
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('3')
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-17 09:19:48 --> Table 'entidad_de_salud.citasmedicas' doesn't exist
+CRITICAL - 2022-08-17 09:19:48 --> Table 'entidad_de_salud.citasmedicas' doesn't exist
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ID`, `F...', 0)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `F...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `F...')
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `F...', Array, false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Models\Home\Model_home.php(134): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(184): App\Models\Home\Model_home->getCitas()
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('3')
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-17 09:20:07 --> Table 'entidad_de_salud.citasmedicas' doesn't exist
+CRITICAL - 2022-08-17 09:20:07 --> Table 'entidad_de_salud.citasmedicas' doesn't exist
+#0 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ID`, `F...', 0)
+#1 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ID`, `F...')
+#2 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ID`, `F...')
+#3 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `ID`, `F...', Array, false)
+#4 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Models\Home\Model_home.php(134): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\app\Controllers\Home.php(184): App\Models\Home\Model_home->getCitas()
+#6 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(832): App\Controllers\Home->agendar_citas_medicas('3')
+#7 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\prueba_trabajo\entidad_de_salud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -166,14 +166,22 @@ class Home extends BaseController
         return view('menu/menu_consultas', $data);
     }
 
-    public function agendar_citas_medicas($direccion_1 = NULL, $direccion_2 = NULL, $direccion_3 = NULL){
-
-        if(isset($direccion_3)){
-            if($direccion_3 == '1'){
+    public function agendar_citas_medicas($direccion_1 = NULL){
+        if(isset($direccion_1)){
+            if($direccion_1 == '1'){
                 $filtros = $this->request->getPost('cita');
+
+                if($filtros['fecha_ocurrencia'] == ''){
+                    $filtros['fecha_ocurrencia'] = NULL;                
+                }
+
+                if($filtros['consultorio'] == ''){
+                    $filtros['consultorio'] = NULL;                
+                }
+
                 $data['lista_citas'] = $this->home->getCitas($filtros['fecha_ocurrencia'],$filtros['consultorio']);
-                var_dump($data['lista_citas']);
-                echo "<br>";
+            } elseif($direccion_1 == '3'){
+                $data['lista_citas'] = $this->home->getCitas();
             }
         } else {
             $data['lista_citas'] = $this->home->getCitas();

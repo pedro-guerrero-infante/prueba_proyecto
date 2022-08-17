@@ -1,18 +1,18 @@
 <div class="d-none" id="filtros">
     <hr/>
-    <form action="<?php echo 'Home/agendar_citas_medicas/1'; ?>" name="form_solicitud" id="form_solicitud" method="POST" accept-charset="utf-8">	
+    <form action="<?php echo base_url().'/Home/agendar_citas_medicas/1'; ?>" name="form_solicitud" id="form_solicitud" method="POST" accept-charset="utf-8">	
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="txtNombre" class="small mb-1 font-weight-bold">Fecha</label>
-                <input type="text" class="form-control form-control-sm" name="cita[fecha_ocurrencia]" id="fecha_desde" value="" readonly/>
+                <input type="text" class="form-control form-control-sm" name="cita[fecha_ocurrencia]" id="fecha" value="" readonly/>
                 <script>
                     $(function () {
-                        $("#fecha_desde").daterangepicker({
+                        $("#fecha").daterangepicker({
                             singleDatePicker: true,
                             showDropdowns: true,
                             autoApply: true,
                             locale: {
-                            format: "YYYY-MM-DD hh:mm"
+                            format: "YYYY-MM-DD hh:mm:ss"
                             }
                         });
                     });

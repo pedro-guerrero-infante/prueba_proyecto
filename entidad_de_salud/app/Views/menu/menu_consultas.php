@@ -12,6 +12,7 @@
                 <div class="card-header">
                     <div class="d-flex justify-content-around">
                         Tabla de consultas
+                        <a href="<?php echo base_url().'/Home/menu'; ?>" class="btn btn-barra btn-icon" data-placement="bottom" title="volver"><i class="fas fa-2x fa-home"></i></a>
                         <a href="" class="btn btn-barra btn-icon" data-toggle="tooltip" data-placement="bottom" title="nueva consulta"><i class="fas fa-2x fa-plus-circle"></i></a>
                     </div>
                 </div>
