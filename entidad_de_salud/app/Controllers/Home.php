@@ -174,12 +174,20 @@ class Home extends BaseController
             if($direccion_1 == '1'){
                 $filtros = $this->request->getPost('cita');
 
-                if($filtros['fecha_ocurrencia'] == ''){
-                    $filtros['fecha_ocurrencia'] = NULL;                
+                if(isset($filtros['fecha_ocurrencia'])){
+                    if($filtros['fecha_ocurrencia'] == ''){
+                        $filtros['fecha_ocurrencia'] = NULL;                
+                    }
+                } else {
+                    $filtros['fecha_ocurrencia'] = NULL;
                 }
 
-                if($filtros['consultorio'] == ''){
-                    $filtros['consultorio'] = NULL;                
+                if(isset($filtros['consultorio'])){
+                    if($filtros['consultorio'] == ''){
+                        $filtros['consultorio'] = NULL;                
+                    }
+                } else {
+                    $filtros['consultorio'] = NULL;
                 }
 
                 if(isset($id_medico)){

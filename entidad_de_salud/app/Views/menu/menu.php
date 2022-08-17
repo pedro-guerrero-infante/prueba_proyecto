@@ -37,10 +37,10 @@
                                                         <td class="text-center">
                                                             <?php 
                                                             if(isset($id_medico)){ ?>
-                                                                <a class="dropdown-item" id="" href="<?php echo $links[$n]; ?>/<?php echo $n.'/'.$id_medico; ?>">
+                                                                <a class="dropdown-item" id="" href="<?php echo $links[$n]; ?>/<?php echo $n; ?>/<?php echo $id_medico; ?>">
                                                             <?php
-                                                            } if(isset($id_usuario)){ ?>
-                                                                <a class="dropdown-item" id="" href="<?php echo $links[$n].'/'.$id_usuario; ?>">
+                                                            } elseif(isset($id_usuario)){ ?>
+                                                                <a class="dropdown-item" id="" href="<?php echo $links[$n]; ?>/<?php echo $id_usuario; ?>">
                                                             <?php } else { ?>
                                                                 <a class="dropdown-item" id="" href="<?php echo $links[$n]; ?>/<?php echo $n; ?>">
                                                             <?php
