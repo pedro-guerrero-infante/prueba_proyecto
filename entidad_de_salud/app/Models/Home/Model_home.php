@@ -127,7 +127,7 @@ class Model_home{
 		return $data;
     }
 
-    public function getCitas( $fecha = NULL, $consultorio = NULL, $id_medico = NULL, $id_cita = NULL){
+    public function getCitas( $fecha = NULL, $consultorio = NULL, $id_medico = NULL, $id_cita = NULL, $id_usuario = NULL){
         $data = array();
 		$builder = $this->db->table('citas_medicas');
 		$builder->select('ID,FECHA,MEDICO,USUARIO,COMPLETADA,CONSULTORIO,TIPO_CONSULTA');
@@ -146,6 +146,10 @@ class Model_home{
 
 		if(isset($id_medico)){
 			$builder->where('MEDICO',$id_medico);
+		}
+
+		if(isset($id_usuario)){
+			$builder->where('usuario',$id_usuario);
 		}
         
         $query = $builder->get();
@@ -188,6 +192,34 @@ class Model_home{
 	}
 
 	public function setNewReporte($nombre_tabla,$contenido = null) {
+		$option = FALSE;
+		$builder = $this->db->table($nombre_tabla);
+		if (isset($id_operacion)) {
+			//$builder->where('id_operacion',$id_operacion);
+			//if ($builder->update($contenido)) { $option = TRUE; } else { $option = FALSE; }
+		} else {
+			if ($builder->insert($contenido)) { $option = TRUE; } else { $option = FALSE; }			
+		}
+		return $option;
+	}
+
+	public function getMedicamentos(){
+        $data = array();
+		$builder = $this->db->table('Medicamentos');
+		$builder->select('ID,NOMBRE');
+	
+        $query = $builder->get();
+
+		if ($query->getNumRows() > 0) {
+			$data = $query->getResult();
+		} else {
+			$data = FALSE;
+		}
+		$query->freeResult();
+		return $data;
+    }
+
+	public function setNewMedicamento($nombre_tabla,$contenido = null) {
 		$option = FALSE;
 		$builder = $this->db->table($nombre_tabla);
 		if (isset($id_operacion)) {

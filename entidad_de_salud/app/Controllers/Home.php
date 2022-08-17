@@ -246,6 +246,17 @@ class Home extends BaseController
 
         $this->home->setNewReporte('Reportes_Medicos',$contenido);
 
+        $n = 1;
+        while( $n < 5){
+            if(isset($nuevo_reporte['Medicamento_'.$n])){
+                $contenido_2["ID_MEDICAMENTO"] = $nuevo_reporte['Medicamento_'.$n];
+                $contenido_2["ID_REPORTE_MEDICO"] = $contenido['ID'];
+                $this->home->setNewMedicamento('Reportes_X_Medicamentos',$contenido_2);
+            }
+            $n++;
+        }
+        
+        
         return $this->agendar_citas_medicas($id_admin, $nuevo_reporte['Medico']);
     }
 
@@ -258,4 +269,24 @@ class Home extends BaseController
         
         return view('menu/reportes', $data);
     }
+
+    public function citas_medicas( $id_usuario = NULL ){
+        $data['lista_citas'] = $this->home->getCitas( NULL, NULL, NULL, NULL, $id_usuario);
+        return view('menu/citas_medicas', $data);
+    }
+
+    public function desplegable_medicamentos( ){
+        $lista_medicamentos = $this->home->getMedicamentos();
+        $numero = $this->request->getPost('ultimo');
+        $desplegable = '
+        <label for="" class="small mb-1 font-weight-bold">Medicamento</label>
+        <select class="form-control form-control-sm" id="medicamento_'.$numero.'" name="Reporte[Medicamento_'.$numero.']">
+            <option value="">Seleccione...</option>
+            '; 
+            foreach ($lista_medicamentos as $medicamento) { 
+                $desplegable .= '<option value='.$medicamento->ID.'>'.$medicamento->NOMBRE.'</option>';										
+            }
+        $desplegable .= '</select>';
+        echo $desplegable;
+    }  
 }

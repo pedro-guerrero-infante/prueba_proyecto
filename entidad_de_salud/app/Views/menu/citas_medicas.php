@@ -19,19 +19,15 @@
                                 Citas medicas
                             </h1>
                         </div>
-                        <div class="col-auto mt-4">
-							<input type="button" id="busqueda" class="btn btn-white" onclick="mostrarFiltros();" value="<?php echo 'Busqueda avanzada'; ?>">
-						</div>
                     </div>
                 </div>
-                <?= $this->include('menu/header_lista_citas_medicas'); ?>
             </div>
         </header>
 
         <div class="container mt-n10">
             <div class="card mb-4">
                 <div class="card-header">
-                    Tabla de citas
+                    Tabla de citas paciente
 	                <a href="" class="btn btn-barra btn-icon" data-placement="bottom" title="volver"><i class="fas fa-2x fa-home"></i></a>
                 </div>
                 <div class="card-body">
@@ -39,26 +35,20 @@
                         <table class="table table-bordered table-hover size_table" width="100%" cellspacin="0">
                             <thead>			
                                 <tr class="text-blue">
-                                    <th>Codigo</th>
+                                    <th>Id</th>
                                     <th>Fecha</th>
                                     <th>Medico</th>
                                     <th>Usuario</th>
-                                    <th>Completada</th>
                                     <th>Consultorio</th>
-                                    <th>Tipo de consulta</th>
-                                    <th>Accion</th>
                                 </tr>
                             </thead>
                             <tfoot>
                                 <tr class="text-blue">
-                                    <th>Codigo</th>
+                                    <th>Id</th>
                                     <th>Fecha</th>
                                     <th>Medico</th>
                                     <th>Usuario</th>
-                                    <th>Completada</th>
                                     <th>Consultorio</th>
-                                    <th>Tipo de consulta</th>
-                                    <th>Accion</th>
                                 </tr>
                             </tfoot>
                             <tbody>
@@ -71,22 +61,7 @@
                                                             <td>'.$cita->FECHA.'</td>
                                                             <td>'.$cita->MEDICO.'</td>
                                                             <td>'.$cita->USUARIO.'</td>
-                                                            <td>'.$cita->COMPLETADA.'</td>
-                                                            <td>'.$cita->CONSULTORIO.'</td>
-                                                            <td>'.$cita->TIPO_CONSULTA.'</td>';?>
-
-                                                            <td class="text-center">
-                                                                <?php
-                                                                if(isset($id_medico)){ ?>
-                                                                    <a class="dropdown-item" id="" href="<?php echo base_url().'/Home/editar_cita/'.$cita->ID."/0"?>">
-                                                                <?php
-                                                                } else { ?>
-                                                                    <a class="dropdown-item" id="" href="<?php echo base_url().'/Home/editar_cita/'.$cita->ID."/1"?>">
-                                                                <?php
-                                                                }   ?>
-                                                                    <div class="dropdown-item-icon"><i class="text-gray-500 fas fa-2x fa-edit"></i></div>
-                                                                </a>
-                                                            </td>
+                                                            <td>'.$cita->CONSULTORIO.'</td>';?>
                                         <?php   echo    '</tr>';
                                             
                                             } 
